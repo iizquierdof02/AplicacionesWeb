@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi web CSS | Aficiones</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header id="cabecera" class="cabecera">
+    <h1>Mis aficiones</h1>
+    <p class="subtitulo">Las cosas que disfruto haciendo</p>
+    <nav class="menu" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="aficiones.html" aria-current="page">Mis aficiones</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="contenido">
+    <section class="seccion">
+      <h2>Mis tres aficiones favoritas</h2>
+      <p>Estas son algunas actividades que me gusta realizar en mi tiempo libre.</p>
+
+      <div class="tarjetas">
+        <article class="tarjeta" id="musica">
+          <h3>Música</h3>
+          <p>Me gusta descubrir canciones nuevas y preparar listas para cada momento.</p>
+          <a href="#recomendaciones">Ver recomendaciones</a>
+        </article>
+        <article class="tarjeta" id="videojuegos">
+          <h3>Videojuegos</h3>
+          <p>Disfruto con los juegos de aventuras y los retos que hay que resolver en equipo.</p>
+          <a href="#recomendaciones">Ver recomendaciones</a>
+        </article>
+        <article class="tarjeta" id="naturaleza">
+          <h3>Naturaleza</h3>
+          <p>Me encanta salir a caminar y fotografiar paisajes.</p>
+          <a href="index.html#sobre-mi">Ver una imagen</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="recomendaciones" class="seccion">
+      <h2>Mis recomendaciones</h2>
+      <h3>Para empezar</h3>
+      <ol class="lista-recomendaciones">
+        <li>Escoge una actividad que te interese.</li>
+        <li>Dedícale un rato cada semana.</li>
+        <li>Compártela con tus amigos.</li>
+      </ol>
+      <p class="aviso">Esta sección también nos servirá para practicar estilos de listas.</p>
+    </section>
+  </main>
+
+  <footer class="pie-pagina">
+    <p>Mi web CSS · Proyecto de clase</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,72 @@
+/* MI WEB CSS
+   Hoja de estilos compartida por index.html y aficiones.html.
+   Iremos completándola durante la UT3.
+*/
+
+/* 3.1 Introducción y fundamentos CSS */
+:root {
+  --color-principal: #937ac2;
+  --color-texto: #1e293b;
+  --color-back:#f4f7fb;
+  --color-titulos:#4dbcd8;
+}
+
+body {
+  font-family:("Georgia", serif);
+  color: var(--color-texto);
+  background-color: #768ba0;
+  font-size: 18px;
+}
+
+h1, h2 {
+  color: var(--color-principal);
+  font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+p {
+  line-height: 2.5;
+}
+
+a {
+  color: #b36a74;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Prueba 1: cambia el color de fondo de toda la página. */
+body {
+  background-color: #fdfeff;
+  color: #263238;
+  font-family: Georgia, serif;
+}
+
+h1, h2 {
+  color: var(--color-principal);
+}
+
+/* Prueba 2: personaliza los títulos h1 y h2. */
+
+/* Prueba 3: aplica un color a los elementos de clase .destacada. */
+
+/* Prueba 4: selecciona el elemento con id #contacto. */
+
+/* Prueba 5: define variables de color en :root y utilízalas con var(). */
+
+/* 3.2 Modelo de caja y apariencia */
+/* Aquí añadiremos margin, padding, border, width, sombras y fondos. */
+
+/* 3.3 Selectores y efectos CSS */
+/* Aquí practicaremos :hover, :focus-visible y transformaciones. */
+
+/* 3.4 Distribución con CSS */
+/* Aquí organizaremos .menu y .tarjetas con Flexbox. */
+
+/* 3.5 Diseño con CSS Grid */
+/* Aquí probaremos Grid con las tarjetas. */
+
+/* 3.6 Posicionamiento avanzado */
+/* Aquí practicaremos position y z-index. */

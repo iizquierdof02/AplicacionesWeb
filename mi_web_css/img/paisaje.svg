@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="titulo">
+  <title id="titulo">Paisaje con montañas y sol</title>
+  <rect width="640" height="320" fill="#d9f0ff"/>
+  <circle cx="490" cy="85" r="45" fill="#ffce70"/>
+  <path d="M0 270 180 65 340 270Z" fill="#7ba7b4"/>
+  <path d="M170 270 385 100 640 270Z" fill="#4f8894"/>
+  <path d="M0 260Q150 235 310 265T640 260V320H0Z" fill="#5b9b72"/>
+</svg>
