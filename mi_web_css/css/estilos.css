@@ -30,7 +30,7 @@ p {
 }
 
 a {
-  color: #b36a74;
+  color: #eea2ac;
 }
 
 img {
@@ -70,3 +70,29 @@ h1, h2 {
 
 /* 3.6 Posicionamiento avanzado */
 /* Aquí practicaremos position y z-index. */
+
+
+header {
+
+  background-color: rgb(238, 237, 237);
+  color: rgba(16, 17, 17, 0.801);
+
+}
+
+footer {
+  background-color: #768ba0;
+  color: #263238;
+
+}
+
+main {
+  background-color: #f4f7fb;
+  color: #616e7a;
+
+}
+
+section {
+  background-color: rgb(223, 217, 216);
+  color: #1e293b;
+  
+}
